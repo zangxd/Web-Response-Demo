@@ -1,0 +1,485 @@
+html,
+body
+{
+    width: 100%;
+    height: 100%;
+}
+section
+{
+    padding: 6em 0;
+}
+::-moz-selection
+{
+    color: #fff;
+    background: #222;
+    text-shadow: none;
+}
+::selection
+{
+    color: #fff;
+    background: #222;
+    text-shadow: none;
+}
+img::selection
+{
+    color: #fff;
+    background: 0 0;
+}
+
+img::-moz-selection
+{
+    color: #fff;
+    background: 0 0;
+}
+section h2,
+section h3
+{
+    color: #292c34;
+}
+section hr
+{
+    max-width: 80px;
+    margin-bottom: 35px;
+
+    border-width: 3px;
+    border-color: #44c1c1;
+}
+section p
+{
+    font-size: 16px;
+
+    margin-bottom: 15px;
+}
+section a.btn
+{
+    margin-top: 50px;
+    padding: 10px 20px;
+}
+aside
+{
+    padding: 50px 0;
+}
+/**navbar start**/
+.navbar-default
+{
+    -webkit-transition: all .35s;
+       -moz-transition: all .35s;
+            transition: all .35s;
+}
+.navbar-default .navbar-header .navbar-brand span
+{
+    display: none;
+}
+@media(min-width:768px)
+{
+    .navbar-default
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        border-bottom: 1px solid #44c1c1;
+        background: #fff;
+    }
+
+    .navbar-default .navbar-header .navbar-brand
+    {
+        font-size: 22px;
+        font-weight: 400;
+
+        text-transform: uppercase;
+
+        color: #44c1c1;
+    }
+    .navbar-default .navbar-header .navbar-brand span
+    {
+        font-size: 13px;
+
+        display: inline;
+
+        margin-left: 5px;
+
+        color: #97999b;
+    }
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus
+    {
+        color: none;
+    }
+
+    .navbar-default .nav > li > a
+    {
+        -webkit-transition: .5s all;
+           -moz-transition: .5s all;
+            -ms-transition: .5s all;
+             -o-transition: .5s all;
+                transition: .5s all;
+
+        color: #666;
+    }
+
+    .navbar-default .nav > li > a:hover,
+    .navbar-default .nav > li > a:focus,
+    .navbar-default .nav > li > a:focus:hover
+    {
+        color: #44c1c1;
+        background-color: transparent;
+    }
+    .navbar-default .nav > li.active > a:hover,
+    .navbar-default .nav > li.active > a:focus:hover
+    {
+        color: #44c1c1;
+        background-color: transparent;
+    }
+    .navbar-default .nav > li.active > a,
+    .navbar-default .nav > li.active > a:focus
+    {
+        color: #44c1c1;
+        background-color: transparent;
+    }
+    .navbar-default.affix
+    {
+        padding: 0;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand
+    {
+        font-size: 18px;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus
+    {
+        color: none;
+    }
+}
+/**navbar end**/
+/**header start**/
+header
+{
+    position: relative;
+
+    width: 100%;
+    min-height: auto;
+
+    text-align: center;
+
+    color: #fff;
+    background-image: url(../img/page_header.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+header .header-content
+{
+    position: relative;
+
+    width: 100%;
+    padding: 100px 15px;
+
+    text-align: center;
+}
+header .header-content .header-content-inner
+{
+    animation-duration: 2s;
+}
+header .header-content .header-content-inner h2
+{
+    font-weight: 400;
+
+    margin-bottom: 15px;
+
+    text-transform: uppercase;
+}
+header .header-content .header-content-inner p
+{
+    font-size: 16px;
+    font-weight: 300;
+
+    margin-top: 2em 0 2em;
+    margin-bottom: 50px;
+}
+header .header-content .header-content-inner a
+{
+    padding: 12px 35px;
+}
+@media(min-width:768px)
+{
+    header
+    {
+        min-height: 100%;
+    }
+
+    header .header-content
+    {
+        position: absolute;
+        top: 42%;
+
+        padding: 0 50px;
+
+        -webkit-transform: translateY(-30%);
+            -ms-transform: translateY(-30%);
+                transform: translateY(-30%);
+    }
+
+    header .header-content .header-content-inner
+    {
+        max-width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+
+        animation-duration: 2s;
+    }
+
+    header .header-content .header-content-inner p
+    {
+        font-size: 18px;
+
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    header .header-content .header-content-inner a
+    {
+        margin-top: 80px;
+    }
+}
+/**header end**/
+.bg-gray
+{
+    background-color: #f9f9f9;
+}
+.no-padding
+{
+    padding: 0;
+}
+.no-padding-bottom
+{
+    padding-bottom: 0;
+}
+.section-heading
+{
+    margin-top: 0;
+}
+.service-box
+{
+    max-width: 400px;
+    margin: 20px auto 0;
+}
+.service-box .text-muted
+{
+    color: #97999b;
+}
+.service-box h3
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+.service-box i
+{
+    display: inline-block;
+    display: block;
+
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+
+    border: 1px solid #44c1c1;
+    border-radius: 50px;
+    background: url(../img/portfolio_icon.png) #44c1c1 no-repeat;
+}
+.service-box i.icon-tr
+{
+    background-position: 11px 10px;
+}
+.service-box i.icon-product
+{
+    background-position: -40px 10px;
+}
+.service-box i.icon-review
+{
+    background-position: -90px 10px;
+}
+.service-box i.icon-loop
+{
+    background-position: -140px 10px;
+}
+.service-box p
+{
+    margin-bottom: 0;
+}
+@media(min-width:992px)
+{
+    .service-box
+    {
+        margin: 20px auto 0;
+    }
+}
+
+.btn
+{
+    font-size: 14px;
+
+    -webkit-transition: .5s all;
+       -moz-transition: .5s all;
+        -ms-transition: .5s all;
+         -o-transition: .5s all;
+            transition: .5s all;
+}
+a.btn:focus
+{
+    border: transparent;
+}
+/** footer strat**/
+footer
+{
+    padding: 20px 0;
+
+    color: #fff;
+    background-color: #192c3b;
+}
+footer p
+{
+    margin-bottom: 0;
+}
+.icon-wechart
+{
+    display: block;
+
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+
+    background-image: url(../img/wechart_icon.png);
+    background-position: center;
+    background-size: cover;
+}
+/** footer end**/
+/**start login and register**/
+.page-signin .signin-header,
+.page-signup .signin-header,
+.page-forgot .signin-header
+{
+    margin-top: 50px;
+}
+@media (min-width: 768px)
+{
+    .page-signin .signin-header,
+    .page-signup .signin-header,
+    .page-forgot .signin-header
+    {
+        margin-top: 150px;
+    }
+}
+.page-signin .logo,
+.page-signup .logo,
+.page-forgot .logo
+{
+    font-size: 26px;
+    font-weight: normal;
+
+    text-transform: uppercase;
+}
+.page-signin .logo a:hover,
+.page-signup .logo a:hover,
+.page-forgot .logo a:hover
+{
+    text-decoration: none;
+}
+.page-signin .logo a:focus,
+.page-signup .logo a:focus,
+.page-forgot .logo a:focus
+{
+    text-decoration: none;
+}
+
+.page-signin .info,
+.page-signup .info,
+.page-forgot .info
+{
+    max-width: 420px;
+    margin: 0 auto 20px;
+    padding: 20px 0 0;
+}
+
+.page-signin .info h2,
+.page-signup .info h2,
+.page-forgot .info h2
+{
+    font-size: 18px;
+
+    color: #242633;
+}
+
+.page-signin .signin-body,
+.page-signin .signup-body,
+.page-signup .signin-body,
+.page-signup .signup-body,
+.page-forgot .signin-body,
+.page-forgot .signup-body
+{
+    padding: 20px 10px;
+}
+
+.page-signin .form-container,
+.page-signup .form-container,
+.page-forgot .form-container
+{
+    max-width: 420px;
+    margin: 10px auto;
+}
+
+.page-signin .form-group,
+.page-signup .form-group,
+.page-forgot .form-group
+{
+    position: relative;
+}
+
+.page-signin .form-group > .glyphicon,
+.page-signup .form-group > .glyphicon,
+.page-forgot .form-group > .glyphicon
+{
+    position: absolute;
+    top: 16px;
+    left: 12px;
+
+    color: #aaa;
+}
+.page-signin .form-group .input-lg,
+.page-signin .form-group .input-group-lg > .form-control,
+.page-signin .form-group .input-group-lg > .input-group-addon,
+.page-signin .form-group .input-group-lg > .input-group-btn > .btn,
+.page-signup .form-group .input-lg,
+.page-signup .form-group .input-group-lg > .form-control,
+.page-signup .form-group .input-group-lg > .input-group-addon,
+.page-signup .form-group .input-group-lg > .input-group-btn > .btn,
+.page-forgot .form-group .input-lg,
+.page-forgot .form-group .input-group-lg > .form-control,
+.page-forgot .form-group .input-group-lg > .input-group-addon,
+.page-forgot .form-group .input-group-lg > .input-group-btn > .btn
+{
+    padding: 10px 30px;
+}
+
+section.page-signup  a.btn,
+section.page-signin  a.btn
+{
+    font-size: 18px;
+
+    margin-top: 0;
+}
+section.page-signin,
+.page-signin section,
+section.page-signup,
+.page-signup section
+{
+    padding: 0;
+}
+section.page-signin p,
+section.page-signup p
+{
+    font-size: 14px;
+}
+/**end login and register**/
